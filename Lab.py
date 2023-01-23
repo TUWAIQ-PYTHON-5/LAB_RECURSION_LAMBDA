@@ -10,7 +10,7 @@ def count_vowels_numbers(s)-> int :
     else:
         return 0 + count_vowels_numbers(s[1:])
 
-    print("Number of vowels in the given string is: ", )
+   
 
 print (count_vowels_numbers("I love python"))
 
