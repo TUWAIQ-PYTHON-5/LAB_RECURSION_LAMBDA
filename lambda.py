@@ -11,14 +11,16 @@ def count_Vovels(phrase :str)-> int:
      else:
          return 0+ count_Vovels(phrase[1:])
 
+#use map() with a lambda funciton
 
 vowels_in_phrase = count_Vovels(" I love python so much")
 print(vowels_in_phrase)
 
 #lambda Functions
 multiply = [40, 25,50,100]
-numbers_list_multiply = list(map(lambda x : x*x,multiply))
-print("the new list is ",multiply)
+
+multiply_numbers_list =list( map(lambda x :x*x, multiply))
+print("the new list is ",multiply_numbers_list)
 
 
 
